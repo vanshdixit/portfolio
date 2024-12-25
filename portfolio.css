@@ -1,0 +1,553 @@
+/* ----------------------------------------Universal establishments-------------------------------------- */
+*{
+    /* background-color: blanchedalmond ; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* background: url(backimg2.jpg) no-repeat; */
+    /* background: url(https://img.freepik.com/free-vector/abstract-background-design-dark-green_53876-59276.jpg) no-repeat; */
+    background: url(https://img.freepik.com/free-vector/abstract-black-lines-geometric-background_677411-2748.jpg) no-repeat;
+    height: 300vh;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed;  */
+}
+/* ------------------------------------------------------------------------------------------------------ */
+
+/* -------------------------------------------Navbar CSS------------------------------------------------- */
+ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between; */
+    width: 70%;
+    /* float: right; */
+    margin-left: 250px;
+    margin-top: 25px;
+    height: 10px;
+    /* width: ; */
+    /* abke baras haye ye savan jaaan na meri le jaaye, bole jo koyal, bagho meinnnnn */
+}
+
+ul li{
+    margin-right: 165px;
+}
+
+a{
+    text-decoration: none;
+    /* width: 100px; */
+}
+
+nav{
+    display: flex;
+    /* justify-content: space-between; */
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: beige;
+    background: transparent;
+    padding: 10px;
+    position: sticky;
+}
+
+.navlinks{
+    /* background-color: ; */
+    color: beige;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.2);
+    /* animation: colorChanging 3s infinite; */
+}
+
+.navlinks:hover{
+    transition-duration: 0.6s;
+    background-image: linear-gradient(to right, beige, #FFD93D);
+    /* background-clip: text;
+    -webkit-background-clip: text; For Webkit browsers */
+    color: black;
+
+}
+
+#logoheading{
+    /* background-color: black; */
+    font-size: 40px;
+    width: 250px;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    transition: 0.6s;
+    animation: textcolorchange 3s infinite;
+    transition-timing-function: ease;
+}
+
+@keyframes textcolorchange {
+    0%{color: #6B6BFF;}
+    25%{color: #6BFF6B;}
+    50%{color: #FF6B6B;}
+    75%{color: #FFD93D;}
+    100%{color: #6B6BFF;}
+}
+
+/* ----------------------------------------------------------------------------------------------------------*/
+
+/* ----------------------------------About Section CSS------------------------------------------------------ */
+
+.section2{
+    margin-top: 70px;
+    /* background-color: black; */
+    /* background: rgb(0, 0, 0, 0.2); */
+    padding: 100px;
+    display: flex;
+    color: white;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+/* #portfolioimg{ */
+    /* border: violet solid; */
+    /* border-radius: 50%; */
+    /* background: url(backimg1.jpg); */
+    
+/* } */
+
+p{
+    margin-top: 85px;
+    margin-left: 60px;
+    font-weight: bold;
+    /* background-color:black ; */
+}
+
+
+.gradient-text {
+    background-image: linear-gradient(to right, beige, #FFD93D);
+    background-clip: text;
+    -webkit-background-clip: text; /* For Webkit browsers */
+    color: transparent;
+  }
+  
+
+.gradient-border {
+    display: inline-block;
+    padding: 5px; /* Adjust for border thickness */
+    background: linear-gradient(to right, beige, yellow);
+    border-radius: 50%; /* Optional: for rounded corners */
+    /* transition-duration: 0.6s; */
+    transition: all 0.6s ease;
+    transition-timing-function: ease;
+    animation: colorChanging 3s infinite;
+  }
+
+@keyframes colorChanging {
+    0% { background: linear-gradient(to right, beige, #FF6B6B) ; }
+    25% { background: linear-gradient(to right, #FF6B6B, #FFD93D)  } 
+    50% { background: linear-gradient(to right, #FFD93D, #6BFF6B ) } 
+    75% { background: linear-gradient(to right, #6BFF6B, #6B6BFF ) } 
+    100% { background: linear-gradient(to right, #FF6B6B, #6B6BFF ) } 
+}
+
+
+.gradient-border:hover{
+    transition-duration: 0.6s;
+    background: linear-gradient(to right, yellow, beige);
+    border-radius: 60px;
+    /* background: url(backimg1.jpg); */
+}
+
+
+
+/* #mainparadiv{
+    background-color: black;
+    border-radius: 3%;
+    height: 215px;
+    width: 1000px;
+    margin-left: 60px;
+    text-align: center;
+} */
+
+/* --------------------------------------------------My Projects Section CSS--------------------------------------------- */
+
+#section3{
+    /* background-color: black; */
+    margin-top: 70px;
+    height: 70vh;
+    padding: 30px;
+    /* display: flex; */
+
+}
+
+#myprojectH{
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.prjs{
+    color: white;
+    display: flex;
+    background-color: rgb(158, 141, 141);
+    color: black;
+    height: 160px;
+    text-align: center;
+    /* border-radius: 10px; */
+    align-items: center;
+    width: 340px;
+    margin-left: 190px;
+    transition: all 0.4s ease;
+    /* border: solid wheat; */
+    /* border-radius: 10px; */
+}
+
+.prjs:hover{
+    width: 345px;
+    /* height: 170px; */
+    background-color: rgb(169, 138, 138);
+    cursor: pointer;
+}
+
+#prj1{
+    /* margin-right: 20px; */
+    /* background: linear-gradient(to right, black, grey); */
+    /* color: beige; */
+    display: block;
+    
+}
+
+#prj2{
+    margin-left: 40px;
+    display: block;
+    /* background: linear-gradient(to right, black, grey); */
+    /* color: beige; */
+}
+
+#prj3{
+    margin-left: 40px;
+    display: block;
+    /* background: linear-gradient(to right, black, grey); */
+    /* color: beige; */
+    
+}
+
+#prjcont{
+    display: flex;
+    margin-top: 300px;
+    /* width: 500px; */
+    /* background-color: white; */
+    /* justify-content: space-between; */
+}
+
+.prjh2{
+    margin-top: 15px;
+}
+
+.prjh3{
+    margin-top: 15px;
+}
+
+.prjvids{
+    margin-top: -290px;
+    margin-bottom: 22px;
+    /* border: solid wheat; */
+}
+
+/* .nextlinediv{
+    align-items: center;
+} */
+
+/* #prj4{
+    position: absolute;
+    margin-top: 400px;
+}
+
+#prj5{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 570px;
+}
+
+#prj6{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 950px;
+} */
+
+
+#prjcont2{
+    display: flex;
+    margin-top: 270px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* -------------------------------------------------------------Section 4: Skills------------------------------------------ */
+
+#section4{
+    margin-top: 570px;
+    /* background-color: ; */
+    color: white;
+    text-align: center;
+    height: 70vh;
+    /* display: flex; */
+
+}
+
+#skillsH{
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+#section4 img{
+    height: 200px;
+}
+
+
+#skillsFirstelem{
+    margin-left: -1000px;
+    margin-top: 100px;
+    /* position: absolute; */
+}
+
+#skillsSecondelem{
+    /* margin-top: 1200px; */
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 500px;
+}
+
+#skillsSecondelem img{
+    height: 160px;
+    border-radius: 20%;
+    margin-bottom: 15px;
+}
+
+#skillsThirdelem{
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 800px;
+}
+
+#skillsFourthelem{
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 1100px;
+}
+
+
+#skillsFifthelem{
+    position: absolute;
+    margin-top: 100px;
+    margin-bottom: -800px;
+    margin-left: 90px;
+}
+
+#skillsFifthelem img{
+    height: 100px;
+    /* margin-left: 100px; */
+    margin-bottom: 15px;
+}
+
+#skillsSixthelem{
+    position: absolute;
+    margin-top: 70px;
+    margin-bottom: -800px;
+    margin-left: 490px;
+}
+
+
+#skillsSixthelem img{
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+
+#skillsSeventhelem{
+    position: absolute;
+    margin-top: 90px;
+    margin-bottom: -800px;
+    margin-left: 790px;
+}
+
+#skillsSeventhelem img{
+    height: 140px;
+    margin-bottom: 15px;
+}
+
+
+#skillsEighthelem{
+    position: absolute;
+    margin-top: 63px;
+    margin-bottom: -800px;
+    margin-left: 1100px;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* -------------------------------------------------------------Section 5: Contact----------------------------------------- */
+
+#section5{
+    margin-top: 350px;
+    text-align: center;
+    color: black;
+    content: "";
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    z-index: -1;
+    /* opacity: 0.7; */
+    /* background: url("food_imgs/bluefood_bg_image2.jpg") no-repeat center center/cover; */
+    /* background: url("https://online.arbor.edu/sites/default/files/styles/blogfeature_large/public/field/image/online-masters-in-communications.jpg?itok=4Dnwtc14") no-repeat center center/cover; */
+    
+
+}
+
+#mycontactH{
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+} */
+
+.form-container {
+    width: 100%;
+    max-width: 700px;
+    /* background: #ffffff; */
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 430px;
+}
+
+.form-container h2 {
+    margin-bottom: 1.5rem;
+    color: white;
+    font-size: 1.5rem;
+    /* margin-right: -100px; */
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #5A67D8;
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(90, 103, 216, 0.3);
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #5A67D8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #434DAA;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------- Footer Section CSS ------------------------------------------------ */
+
+#footerSec{
+    /* position: absolute; */
+    margin-top: 1100px;
+    text-align: center;
+    /* background-color: white; */
+    height: 10vh;
+    /* background-color: white; */
+    background-color: #222;
+    color: white;
+    /* align-items: center; */
+    /* display: flex; */
+}
+
+
+#copyrightp{
+    margin-top: 23px;
+
+    /* color: black; */
+
+    position: absolute;
+
+}
+
+
+.social-icon{
+    color: white;
+    /* background-color: white; */
+    width: 35px;
+    height: 35px;
+    margin-left: 1000px;
+    margin-top: 16px;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover{
+    color: #9e7b7b;
+    cursor: pointer;
+    
+}
+
+#youtubeicon{
+    position: absolute;
+    margin-left: 30px;
+}
+
+#instagramicon{
+    position: absolute;
+    margin-left: 96px;
+}
+
+#linkedinicon{
+    position: absolute;
+    margin-left: 156px;
+}
